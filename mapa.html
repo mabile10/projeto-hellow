@@ -1,0 +1,161 @@
+</HTML->>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Eventos </title>
+    <!-- Inicio Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="scss/custom.scss">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header><!--Inicio cabeçalho-->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-secondary navbar-custom">
+            <a class="navbar-brand" href="#">
+                <img src="imagem/calendar3.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Agenda de Eventos
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Galeria de Fotos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Opção 1</a>
+                            <a class="dropdown-item" href="#">Opção 2</a>
+                            <a class="dropdown-item" href="#">Opção 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header><!--Final cabeçalho-->
+
+    <main><!--Inicio Main-->
+        <section id="proximos-eventos" style="margin-top: 80px;"><!--Inicio primeiro section-->
+            <div class="container">
+                <h2 class="my-4">Próximos Eventos</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagem/download .png" class="d-block w-100" alt="Evento 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Evento 1</h5>
+                                <p>Descrição do evento 1.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagem/Magia-de-Natal.png" class="d-block w-100" alt="Evento 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Evento 2</h5>
+                                <p>Descrição do evento 2.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagem/prefeitura.png" class="d-block w-100" alt="Evento 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Evento 3</h5>
+                                <p>Descrição do evento 3.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
+        </section><!--Final primeiro section-->
+
+        <section id="agenda-eventos"><!--Inicio segundo section-->
+            <div class="container">
+                <h2 class="my-4">Agenda de Eventos</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="img/foto-museu-da-cerveja.png" class="card-img-top" alt="Evento 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Museu Da Cerveja</h5>
+                                <p class="card-text">Museu da cerveja é um ponto turístico de Blumenau</p>
+                                <p><strong>Data:</strong> 01/07/2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="img/blu.png" class="card-img-top" alt="Prefeitura De Blumenau">
+                            <div class="card-body">
+                                <h5 class="card-title">Prefeitura De Blumenau</h5>
+                                <p class="card-text">Prefeitura De Blumenau. Este evento ocorrerá no dia 05/07/2024.</p>
+                                <p><strong>Data:</strong> 05/07/2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="img/ramiro.png" class="card-img-top" alt="Evento 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Parque Ramiro Ruediger </h5>
+                                <p class="card-text">Museu da cerveja é um ponto turístico de Blumenau.</p>
+                                <p><strong>Data:</strong> 10/07/2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--Final segundo section-->
+
+
+        <section id="mapa-eventos"><!--Inicio terceiro section-->
+            <div class="container">
+                <h2 class="my-4">Mapa dos Eventos</h2>
+                <!-- Placeholder for the map -->
+                <div id="map" class="bg-light p-3 rounded" style="height: 400px;">
+                    <!-- Here you can integrate a map plugin like Google Maps or Leaflet -->
+                    <p>Mapa de eventos será exibido aqui.</p>
+                </div>
+                
+            </div>
+        </section><!--Final terceiro section-->
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_1faKCtRCKyK-Pn2PDpx7DHlgBFJVabc&callback=initMap"
+            async defer></script>
+        <script src="script (1).js"></script>
+
+</body>
+
+</html>
